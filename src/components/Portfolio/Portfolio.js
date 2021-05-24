@@ -21,7 +21,7 @@ const Portfolio = () => {
     >
       <h1 className="heading">Projects I have Built</h1>
       <div className="projects-container">
-        {/* Project - Diaries Manager App */}
+        {/* Project - Data Pipeline */}
         <motion.div
           variants={boxVariants}
           whileHover="hover"
@@ -65,7 +65,7 @@ const Portfolio = () => {
         </motion.div>
         {/* // */}
 
-        {/* Project - Shoe Store */}
+        {/* Project - Data Analysis */}
         <motion.div
           variants={boxVariants}
           whileHover="hover"
@@ -109,7 +109,7 @@ const Portfolio = () => {
           </div>
         </motion.div>
         {/* // */}
-        {/* Project - Todo List */}
+        {/* Project - Data Dashboard */}
         <motion.div
           className="projects"
           variants={boxVariants}

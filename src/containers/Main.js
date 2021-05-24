@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "./../index.css";
 import Nav from "../components/Nav/Nav";
 import Home from "../components/Home/Home";
+import About from "../components/About/About";
 import Skills from "../components/Skills/Skills";
 import Portfolio from "../components/Portfolio/Portfolio";
 import Contact from "../components/Contact/Contact";
@@ -18,6 +19,7 @@ function Main() {
     <div className="main-container">
       <Nav />
       <Home />
+      <About />
       <Services />
       <Skills />
       <Portfolio />
